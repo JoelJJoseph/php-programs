@@ -1,0 +1,4 @@
+rsconf={_id:"bcatest",members:[{_id:0,host:"localhost:27017"}]}
+
+
+mongod --dbpath "C:\data1\db" --logpath "C:\data1\log\mongod.log" --port 27020 --storageEngine=wiredTiger --journal --replSet bcatest
